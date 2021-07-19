@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+}
+
+.image_background {
+    width: 40%
+}
+
+.wrap {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrap-text {
+    width: 70%;
+    text-align: center;
+}
+
+.wrap-text-2 {
+    text-align: justify;
+}
+
+.flex {
+    display: flex;
+}
+
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+h1 {
+    font-family: "OpenSans-SemiBold", sans-serif;
+    font-size: 50px;
+}
+
+.text {
+    font-family: "OpenSans-Light", sans-serif;
+    font-size: 15px;
+}
+
+.block1 label {
+    font-size: 20px;
+    font-family: "OpenSans-Regular", sans-serif;
+}
+
+.block1 input {
+    font-family: "OpenSans-Light", sans-serif;
+    font-size: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-family: "OpenSans-Regular", sans-serif;
+    background-color: #BF5D8A;
+    padding: 10px;
+    margin-top: 7px;
+    color: rgb(255, 255, 255);
+}
+
+.btn_second { 
+    cursor: text; 
+    background-color: #D89FB9;
+}
+
+.btn_last {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding-left: 0px;
+}
