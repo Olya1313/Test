@@ -6,6 +6,34 @@ body {
     width: 40%
 }
 
+@media screen and (max-width: 1550px) and (min-width: 950px){
+    .wrap {
+        width: 40%;
+    }
+    .image_background {
+        width: 30%
+    }
+}
+
+
+@media screen and (max-width: 950px) and (min-width:450px){
+    .wrap {
+        width: 70%;
+    }
+    .image_background {
+        width: 0%
+    }
+}
+
+@media screen and (max-width: 450px){
+    .wrap {
+        width: 90%;
+    }
+    .image_background {
+        width: 0%
+    }
+}
+
 .wrap {
     margin: 0 auto;
     display: flex;
