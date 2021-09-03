@@ -3,6 +3,13 @@ var question1 = document.getElementById('question1')
 var btnReset = document.getElementById("btnReset")
 
 function reset() {
+    question1.style.color = 'black'
+    question2.style.color = 'black'
+    question3.style.color = 'black'
+    question4.style.color = 'black'
+    question5.style.color = 'black'
+    question6.style.color = 'black'
+
     var answer1 = document.getElementById('correct1')
     answer1.checked = false
     var answer1_1 = document.getElementById('wrong1')
