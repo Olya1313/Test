@@ -1,5 +1,33 @@
 var btn = document.getElementById("btn")
 var question1 = document.getElementById('question1')
+var btnReset = document.getElementById("btnReset")
+
+function reset() {
+    var answer1 = document.getElementById('correct1')
+    answer1.checked = false
+    var answer1_1 = document.getElementById('wrong1')
+    answer1_1.checked = false
+    var answer2 = document.getElementById('correct2')
+    answer2.checked = false
+    var answer2_1 = document.getElementById('wrong2')
+    answer2_1.checked = false
+    var answer3 = document.getElementById('correct3')
+    answer3.checked = false
+    var answer3_1 = document.getElementById('wrong3')
+    answer3_1.checked = false
+    var answer4 = document.getElementById('correct4')
+    answer4.checked = false
+    var answer4_1 = document.getElementById('wrong4')
+    answer4_1.checked = false
+    var answer5 = document.getElementById('correct5')
+    answer5.checked = false
+    var answer5_1 = document.getElementById('wrong5')
+    answer5_1.checked = false
+    var answer6 = document.getElementById('correct6')
+    answer6.checked = false
+    var answer6_1 = document.getElementById('wrong6')
+    answer6_1.checked = false
+}
 
 function check1() {
     var answer1 = document.getElementById('correct1')
@@ -63,3 +91,6 @@ btn.addEventListener('click', check3)
 btn.addEventListener('click', check4)
 btn.addEventListener('click', check5)
 btn.addEventListener('click', check6)
+
+btnReset.addEventListener("click", reset)
+
