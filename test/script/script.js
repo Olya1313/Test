@@ -149,7 +149,7 @@ function answerGiving5() {
 
 
 function check6() {
-    var answer6 = document.getElementById("input4").value.toLowerCase()
+    var answer6 = document.getElementById("input6").value.toLowerCase()
 
     if (answer6 == "вітка параболи") {
         input6.style.backgroundColor = "rgb(124, 232, 92)"
