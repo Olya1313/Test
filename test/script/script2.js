@@ -1,8 +1,8 @@
 var btn = document.getElementById("btn")
 var question1 = document.getElementById('question1')
-var btnReset = document.getElementById("btnReset")
+/* var btnReset = document.getElementById("btnReset") */
 
-function reset() {
+/* function reset() {
     question1.style.color = 'black'
     question2.style.color = 'black'
     question3.style.color = 'black'
@@ -34,7 +34,7 @@ function reset() {
     answer6.checked = false
     var answer6_1 = document.getElementById('wrong6')
     answer6_1.checked = false
-}
+} */
 
 function check1() {
     var answer1 = document.getElementById('correct1')
@@ -99,5 +99,5 @@ btn.addEventListener('click', check4)
 btn.addEventListener('click', check5)
 btn.addEventListener('click', check6)
 
-btnReset.addEventListener("click", reset)
+/* btnReset.addEventListener("click", reset) */
 
