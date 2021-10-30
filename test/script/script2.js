@@ -1,8 +1,8 @@
 var btn = document.getElementById("btn")
 var question1 = document.getElementById('question1')
-/* var btnReset = document.getElementById("btnReset") */
+var btnReset = document.getElementById("btnReset") 
 
-/* function reset() {
+function reset() {
     question1.style.color = 'black'
     question2.style.color = 'black'
     question3.style.color = 'black'
@@ -12,29 +12,53 @@ var question1 = document.getElementById('question1')
 
     var answer1 = document.getElementById('correct1')
     answer1.checked = false
-    var answer1_1 = document.getElementById('wrong1')
+    var answer1_1 = document.getElementById('wrong1-1')
+    var answer1_2 = document.getElementById('wrong1-2')
+    var answer1_3 = document.getElementById('wrong1-3')
     answer1_1.checked = false
+    answer1_2.checked = false
+    answer1_3.checked = false
     var answer2 = document.getElementById('correct2')
     answer2.checked = false
-    var answer2_1 = document.getElementById('wrong2')
+    var answer2_1 = document.getElementById('wrong2-1')
+    var answer2_2 = document.getElementById('wrong2-2')
+    var answer2_3 = document.getElementById('wrong2-3')
     answer2_1.checked = false
+    answer2_2.checked = false
+    answer2_3.checked = false
     var answer3 = document.getElementById('correct3')
     answer3.checked = false
-    var answer3_1 = document.getElementById('wrong3')
+    var answer3_1 = document.getElementById('wrong3-1')
+    var answer3_2 = document.getElementById('wrong3-2')
+    var answer3_3 = document.getElementById('wrong3-3')
     answer3_1.checked = false
+    answer3_2.checked = false
+    answer3_3.checked = false
     var answer4 = document.getElementById('correct4')
     answer4.checked = false
-    var answer4_1 = document.getElementById('wrong4')
+    var answer4_1 = document.getElementById('wrong4-1')
+    var answer4_2 = document.getElementById('wrong4-2')
+    var answer4_3 = document.getElementById('wrong4-3')
     answer4_1.checked = false
+    answer4_2.checked = false
+    answer4_3.checked = false
     var answer5 = document.getElementById('correct5')
     answer5.checked = false
-    var answer5_1 = document.getElementById('wrong5')
+    var answer5_1 = document.getElementById('wrong5-1')
+    var answer5_2 = document.getElementById('wrong5-2')
+    var answer5_3 = document.getElementById('wrong5-3')
     answer5_1.checked = false
+    answer5_2.checked = false
+    answer5_3.checked = false
     var answer6 = document.getElementById('correct6')
     answer6.checked = false
-    var answer6_1 = document.getElementById('wrong6')
+    var answer6_1 = document.getElementById('wrong6-1')
+    var answer6_2 = document.getElementById('wrong6-2')
+    var answer6_3 = document.getElementById('wrong6-3')
     answer6_1.checked = false
-} */
+    answer6_2.checked = false
+    answer6_3.checked = false
+} 
 
 function check1() {
     var answer1 = document.getElementById('correct1')
@@ -90,8 +114,6 @@ function check6() {
     }
 }
 
-
-
 btn.addEventListener('click', check1)
 btn.addEventListener('click', check2)
 btn.addEventListener('click', check3)
@@ -99,5 +121,5 @@ btn.addEventListener('click', check4)
 btn.addEventListener('click', check5)
 btn.addEventListener('click', check6)
 
-/* btnReset.addEventListener("click", reset) */
+btnReset.addEventListener("click", reset) 
 
